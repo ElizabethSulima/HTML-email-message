@@ -107,12 +107,12 @@ body {
   padding-bottom: 25px;
 }
 
-.section__prepare {
+.section__prepare,
+.section__manual {
   margin-bottom: 40px;
 }
 
-.section__button,
-.card-button {
+.section__button {
   text-transform: uppercase;
   background-color: #ed1b2f;
   color: #fff;
@@ -173,7 +173,7 @@ body {
 
 .manual-text {
   font-family: Verdana;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   color: #333;
@@ -182,6 +182,7 @@ body {
 }
 
 .manual-card {
+  margin-bottom: 20px;
 }
 
 .card-mask {
@@ -196,8 +197,8 @@ body {
 
 .card-content {
   background-color: #fff;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  min-height: 310px;
+  position: relative;
 }
 
 .card-header {
@@ -205,10 +206,9 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
-}
-
-.card-block-text {
-  height: 150px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .card-text {
@@ -217,19 +217,165 @@ body {
   font-weight: 400;
   color: #333;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .card-button {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  width: 80%;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 15px;
+  background-color: #ed1b2f;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Verdana;
+  padding: 20px 15px;
+  border: none;
+  border-radius: 7px;
+  text-transform: uppercase;
 }
 
 .link {
   color: #333;
   text-decoration: underline;
+}
+
+.section__terminal {
+  background-color: #fff;
+  min-height: 300px;
+  margin-bottom: 15px;
+}
+
+.terminal__content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.nav-menu {
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Verdana;
+  text-align: center;
+  border: none;
+  color: #fff;
+}
+
+.menu-item-1 {
+  background-color: #7bae64;
+  border-radius: 20px;
+  width: 50%;
+  padding: 5px 1px;
+}
+
+.menu-item-2 {
+  background-color: #ed1b2f;
+  border-radius: 20px;
+  width: 50%;
+  padding: 5px 1px;
+}
+
+.terminal-title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Verdana;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.terminal-body-text {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Verdana;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.terminal-button {
+  background-color: #ed1b2f;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Verdana;
+  padding: 20px 15px;
+  border: none;
+  border-radius: 7px;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.price-container {
+  display: flex;
+  gap: 20px;
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.new-price {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Verdana;
+  color: #2c2c2c;
+}
+
+.old-price {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Verdana;
+  color: #777;
+  text-decoration: line-through;
+}
+
+.terminal-image {
+  width: 70%;
+}
+
+.section__benefit {
+  background-color: #fff;
+  min-height: 150px;
+}
+
+.benefit__header {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Verdana;
+  color: #2c2c2c;
+  text-align: center;
+  padding-top: 20px;
+  width: 415px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.benefit__text {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Verdana;
+  color:#ed1b2f;
+  border: #ed1b2f 2px dashed;
+  border-radius: 10px;
+  padding: 20px 100px;
+  width: 200px;
 }
 
 @media (min-width: 360px) AND (max-width: 500px) {
@@ -239,10 +385,37 @@ body {
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 760px) {
   .manual-cards {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+  }
+
+  .card-header,
+  .card-text,
+  .terminal-title,
+  .terminal-body-text {
+    text-align: left;
+  }
+
+  .terminal__content {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-body,
+  .terminal-image {
+    width: 50%;
+  }
+
+  .terminal-button {
+    width: 100%;
+  }
+
+  .price-container {
+    justify-content: left;
   }
 }
