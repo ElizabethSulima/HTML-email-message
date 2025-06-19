@@ -168,7 +168,8 @@ body {
 }
 
 .manual__content {
-  width: 90%;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .manual-text {
@@ -187,13 +188,8 @@ body {
 
 .card-mask {
   width: 100%;
+  display: block;
 }
-
-/* .card-logo {
-  position: relative;
-  top: -150px;
-  left: 100px;
-} */
 
 .card-content {
   background-color: #fff;
@@ -207,8 +203,7 @@ body {
   font-weight: 700;
   text-align: center;
   padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 .card-text {
@@ -219,8 +214,6 @@ body {
   text-align: center;
   margin-bottom: 15px;
   padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .card-button {
@@ -239,6 +232,12 @@ body {
   border: none;
   border-radius: 7px;
   text-transform: uppercase;
+
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  
 }
 
 .link {
@@ -371,11 +370,14 @@ body {
   font-size: 16px;
   font-weight: 700;
   font-family: Verdana;
-  color:#ed1b2f;
+  color: #ed1b2f;
   border: #ed1b2f 2px dashed;
   border-radius: 10px;
   padding: 20px 100px;
   width: 200px;
+}
+
+.benefit__link {
 }
 
 @media (min-width: 360px) AND (max-width: 500px) {
@@ -417,5 +419,11 @@ body {
 
   .price-container {
     justify-content: left;
+  }
+
+  .card-header,
+  .card-text {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
