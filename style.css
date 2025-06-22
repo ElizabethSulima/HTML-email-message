@@ -57,12 +57,10 @@ section,
 }
 
 .container {
-  width: 95%;
-  border-radius: 0.5rem;
+  border-radius: 12px;
 }
 
 .wrapper-center {
-  padding: 2rem;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -91,8 +89,7 @@ section,
   color: #000;
   display: flex;
   line-height: 1.6;
-  font-weight: 400;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-family: Montserrat;
   flex-direction: column;
 }
@@ -128,7 +125,7 @@ section,
 
 .info-text {
   color: #333;
-  font-size: 2rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   font-family: Verdana;
   padding-bottom: 2rem;
@@ -141,9 +138,9 @@ section,
   font-size: 1.4rem;
   font-weight: 700;
   font-family: Verdana;
-  width: 21.8rem;
-  padding: 2rem 1.5rem;
-  border-radius: 0.7rem;
+  width: 16rem;
+  padding: 1rem 0.5rem;
+  border-radius: 7px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -157,7 +154,7 @@ section,
   text-transform: uppercase;
   text-align: center;
   font-family: Montserrat;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 3.5rem;
 }
@@ -181,13 +178,13 @@ section,
 }
 
 .block-star {
-  width: 25px;
+  width: 2rem;
 }
 
 .block-text {
   color: #333;
   font-family: Verdana;
-  font-size: 2rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 
@@ -195,22 +192,22 @@ section,
   color: #333;
   text-align: center;
   font-family: Verdana;
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 1.5;
   margin-bottom: 3.5rem;
 }
 
 .manual-card {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   margin-left: auto;
   margin-right: auto;
+  min-height: 250px;
+  border-radius: 12px;
 }
 
 .card-mask {
   width: 100%;
   display: block;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
 }
 
 .card-content {
@@ -220,12 +217,11 @@ section,
   justify-content: space-between;
   padding-bottom: 2rem;
   min-height: 300px;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
 }
 
 .content-text {
   padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .card-header {
@@ -233,7 +229,7 @@ section,
   font-family: Verdana;
   font-size: 2rem;
   font-weight: 700;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
   padding-bottom: 1.5rem;
 }
 
@@ -241,7 +237,7 @@ section,
   color: #333;
   text-align: center;
   font-family: Verdana;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 1.5rem;
   padding-top: 1.5rem;
 }
@@ -279,10 +275,10 @@ section,
   color: #fff;
   display: flex;
   gap: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 14px;
   font-family: Verdana;
   border: none;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -291,7 +287,7 @@ section,
   background-color: #7bae64;
   text-align: center;
   vertical-align: middle;
-  border-radius: 2rem;
+  border-radius: 20px;
   width: 50%;
   padding: 0.2rem 1rem;
 }
@@ -300,14 +296,14 @@ section,
   background-color: #ed1b2f;
   text-align: center;
   vertical-align: middle;
-  border-radius: 2rem;
+  border-radius: 20px;
   padding: 0.2em 1rem;
   width: 50%;
 }
 
 .terminal-title {
   color: #333;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
   font-family: Verdana;
   margin-bottom: 1.5rem;
@@ -315,7 +311,7 @@ section,
 
 .terminal-body-text {
   color: #333;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-family: Verdana;
   margin-left: auto;
   margin-right: auto;
@@ -326,11 +322,14 @@ section,
   background-color: #ed1b2f;
   color: #fff;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   font-size: 1.2rem;
   font-weight: 700;
   font-family: Verdana;
-  padding: 2rem 1.5rem;
+  width: 14rem;
+  padding: 1rem 0.5rem;
   border: none;
   border-radius: 7px;
   text-transform: uppercase;
@@ -346,14 +345,14 @@ section,
 
 .new-price {
   color: #2c2c2c;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   font-family: Verdana;
 }
 
 .old-price {
   color: #777;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   font-family: Verdana;
   text-decoration: line-through;
 }
@@ -371,7 +370,7 @@ section,
 
 .benefit__header {
   color: #2c2c2c;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.5;
   font-family: Verdana;
@@ -392,12 +391,12 @@ section,
   font-weight: 700;
   font-family: Verdana;
   color: #ed1b2f;
-  border: #ed1b2f 2px dashed;
+  border: #ed1b2f 1px dashed;
   width: 40rem;
   align-self: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   box-sizing: border-box;
 }
 
@@ -407,10 +406,9 @@ section,
   display: inline-block;
   position: absolute;
   left: 50%;
-  width: 12rem;
-  max-width: 22.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  right: 0.5%;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
   font-size: 1rem;
   font-weight: 700;
   font-family: Verdana;
@@ -424,7 +422,7 @@ section,
 
 .unique__header {
   color: #2c2c2c;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 700;
   font-family: Verdana;
   text-align: center;
@@ -444,7 +442,7 @@ section,
 .copy {
   width: 5rem;
   position: absolute;
-  top: calc(50% - 4rem);
+  top: calc(50% - 40px);
   right: 0.5rem;
 }
 
@@ -475,7 +473,7 @@ section,
 }
 
 .section__trade {
-  background-image: url("/images/Rectangle.jpg");
+  background-image: url("./images/Rectangle.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -497,7 +495,7 @@ section,
 
 .trade__header {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
@@ -581,7 +579,7 @@ section,
 .phone,
 .email {
   color: #898989;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: Verdana;
   line-height: 1.5;
 }
@@ -612,14 +610,11 @@ section,
   color: #b4b4b4;
 }
 
-@media (min-width: 400px) and (max-width: 500px) {
-  .benefit__link {
-    left: calc(50% + 1rem);
-    width: calc(13rem + 7%);
+/* @media (max-width: 768px) {
+  html {
+    font-size: 15px;
   }
-}
 
-@media (min-width: 501px) {
   .info-link {
     margin-left: 0;
   }
@@ -666,27 +661,101 @@ section,
   }
 
   .copy-link {
-    width: 45rem;
+    width: 450px;
   }
 
   .benefit__text {
-    padding-left: 5rem;
+    padding-left: 50px;
   }
 
   .benefit__link {
-    width: 20rem;
-    font-size: 1.4rem;
+    width: 200px;
+    font-size: 14px;
   }
 
   .trade__content {
-    padding-left: 5rem;
-  }
-
-  .contacts-info {
-    width: 100%;
+    padding-left: 50px;
   }
 
   .footer__center {
-    max-width: 70rem;
+    max-width: 700px;
+  }
+} */
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1281px) {
+  html {
+    font-size: 16px;
+  }
+
+  .info-link {
+    margin-left: 0;
+  }
+
+  .manual-cards {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .card-header,
+  .card-text {
+    text-align: left;
+  }
+
+  .section__terminal {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-body,
+  .terminal-image {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .terminal-body-text,
+  .terminal-title {
+    text-align: left;
+  }
+
+  .info-link,
+  .price-container {
+    justify-self: left;
+  }
+
+  .card-header,
+  .card-text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .copy-link {
+    width: 450px;
+  }
+
+  .benefit__text {
+    padding-left: 50px;
+  }
+
+  .benefit__link {
+    width: 200px;
+    font-size: 14px;
+  }
+
+  .trade__content {
+    padding-left: 50px;
+  }
+
+  .footer__center {
+    max-width: 700px;
   }
 }
