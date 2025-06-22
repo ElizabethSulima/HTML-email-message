@@ -194,20 +194,19 @@ section,
   font-family: Verdana;
   font-size: 1.7rem;
   line-height: 1.5;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
 
 .manual-card {
-  /* margin-bottom: 2rem; */
   margin-left: auto;
   margin-right: auto;
-  min-height: 250px;
-  border-radius: 12px;
 }
 
 .card-mask {
   width: 100%;
   display: block;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .card-content {
@@ -215,8 +214,8 @@ section,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 2rem;
-  min-height: 300px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 .content-text {
@@ -227,35 +226,40 @@ section,
 .card-header {
   text-align: center;
   font-family: Verdana;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  padding-top: 2.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
 }
 
 .card-text {
   color: #333;
   text-align: center;
   font-family: Verdana;
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
   padding-top: 1.5rem;
 }
 
-.card-link {
+.card-link,
+.card-link-1 {
   background-color: #ed1b2f;
   color: #fff;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   font-family: Verdana;
-  width: 18rem;
   padding: 1.5rem 0.5rem;
   border-radius: 7px;
   text-transform: uppercase;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
+.card-link-1 {
+  width: 12rem;
+  margin-top: 70px;
 }
 
 .link {
@@ -701,6 +705,10 @@ section,
     display: flex;
     justify-content: center;
     gap: 18px;
+  }
+
+  .manual-card {
+    width: 50%;
   }
 
   .card-header,
